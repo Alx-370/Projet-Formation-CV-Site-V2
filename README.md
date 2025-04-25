@@ -33,4 +33,4 @@ Un projet formateur et motivant qui m’a permis de faire le lien entre apprenti
 ## 🔗Liens :
 
 <a href="https://www.linkedin.com/in/alexismoreau37/"><img width=120px src="linkedin.png"></a>
-<a href="CVAlexisMoreauV3.2.pdf"><img width=120px src="IcôneCV.png"></a>
+<a href="CVAlexisMoreauV3.2.pdf"><img width=120px src="IconeCV.png"></a>
