@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Mon CV en ligne</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li id="menu-acc"><a href="accueil.html">Accueil</a></li>
+                <li id="menu-exp"><a href="experiences.html">Expériences</a></li>
+                <li id="menu-pro"><a href="projet.html">Projets</a></li>
+                <li id="menu-con"><a href="contactez-moi.html"><u>Contact</u></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="box-formulaire">
+            <h2>Formulaire de Contact</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Informations Personnelles</legend>
+                    <div>
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" required autocomplete="name" placeholder="Votre nom">
+                    </div>
+                    <div>
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required autocomplete="email" placeholder="exemple@email.com">
+                    </div>
+                    <div>
+                        <label for="message">Votre message :</label>
+                        <textarea id="message" name="message" required rows="2"></textarea>
+                    </div>
+                    <div>
+                        <label>Genre :</label>
+                        <input type="radio" name="genre" value="homme" required> Homme
+                        <input type="radio" name="genre" value="femme" required> Femme
+                        <input type="radio" name="genre" value="autre" required> Autre
+                    </div>
+                    <div>
+                        <label><input type="checkbox" name="newsletter" value="oui"> S'abonner à la newsletter</label>
+                    </div>
+                </fieldset>
+                    <button type="submit">Envoyer</button>
+            </form>
+        </section>    
+    </main>
+    <footer>
+        <p>&copy;<time datetime="2025-04">2025</time> Alexis Moreau - Toute reproduction interdite</p>
+        <nav>
+            <a href="https://www.linkedin.com/in/alexismoreau37/" target="_blank">LinkedIn</a> | <a href="https://github.com/Alx-370" target="_blank">GitHub</a> | <a href="contactez-moi.html">Contact</a>
+        </nav>
+    </footer>
+</body>
+</html>
